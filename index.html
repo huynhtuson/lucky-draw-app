@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ứng dụng quay số trúng thưởng trực tuyến miễn phí">
+    <meta name="keywords" content="quay số, trúng thưởng, rút thăm, may mắn, ngẫu nhiên">
+    <meta name="author" content="Lucky Draw App">
+    <title>Ứng Dụng Quay Số Trúng Thưởng</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎁</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <h1>Ứng Dụng Quay Số Trúng Thưởng</h1>
+        
+        <div class="prize-section">
+            <h2>Danh Sách Giải Thưởng</h2>
+            <div class="prize-input">
+                <textarea id="prizeList" rows="10" placeholder="Nhập danh sách giải thưởng, mỗi giải thưởng một dòng"></textarea>
+                <div class="buttons">
+                    <button id="loadDemo">Tải Danh Sách Mẫu</button>
+                    <button id="clearList">Xóa Danh Sách</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="draw-section">
+            <button id="drawButton" class="draw-button">QUAY THƯỞNG</button>
+            <div id="animation" class="animation-container">
+                <div id="animationContent" class="animation-content"></div>
+            </div>
+        </div>
+        
+        <div class="result-section">
+            <h2>Kết Quả</h2>
+            <div id="result" class="result-display">Chưa có kết quả</div>
+            <div class="history">
+                <h3>Lịch Sử Kết Quả</h3>
+                <div id="historyList" class="history-list"></div>
+                <button id="clearHistory">Xóa Lịch Sử</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 Ứng Dụng Quay Số Trúng Thưởng | <a href="https://github.com" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
