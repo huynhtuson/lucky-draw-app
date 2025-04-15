@@ -4,6 +4,9 @@
 
 Ứng dụng Quay Số Trúng Thưởng là một công cụ đơn giản giúp bạn tổ chức các hoạt động quay thưởng ngẫu nhiên. Ứng dụng cho phép bạn nhập danh sách giải thưởng, quay số ngẫu nhiên và lưu lại lịch sử kết quả.
 
+## Live Preview
+[html preview](https://htmlpreview.github.io/?https://github.com/huynhtuson/lucky-draw-app/blob/main/index.html)
+
 ## Cài đặt
 
 1. Giải nén tệp `lucky_draw_app.zip` vào một thư mục trên máy tính của bạn.
